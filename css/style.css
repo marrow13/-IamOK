@@ -1,0 +1,349 @@
+/*@font-face {
+    font-family: PFSquareSansProMedium;
+    src: url(http://iamok.com.ua/systemimages/image/pf-square-sans-pro-medium);
+}
+@font-face {
+    font-family: PFSquareSansProLight;
+    src: url(http://iamok.com.ua/systemimages/image/pf-square-sans-pro-light);
+}
+@font-face {
+    font-family: PFSquareSansProThin;
+    src: url(http://iamok.com.ua/systemimages/image/pf-square-sans-pro-thin);
+}*/
+@font-face {
+    font-family: "pf-200";
+    src: url("../fonts/PFSquareSansPro-Light.eot");
+    src: url("../fonts/PFSquareSansPro-Light.eot")format("embedded-opentype"),
+    url("../fonts/PFSquareSansPro-Light.woff") format("woff"),
+    url("../fonts/PFSquareSansPro-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "pf-300";
+    src: url("../fonts/PFSquareSansPro-Regular.eot");
+    src: url("../fonts/PFSquareSansPro-Regular.eot")format("embedded-opentype"),
+    url("../fonts/PFSquareSansPro-Regular.woff") format("woff"),
+    url("../fonts/PFSquareSansPro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "pf-700";
+    src: url("../fonts/PFSquareSansPro-Bold.eot");
+    src: url("../fonts/PFSquareSansPro-Bold.eot")format("embedded-opentype"),
+    url("../fonts/PFSquareSansPro-Bold.woff") format("woff"),
+    url("../fonts/PFSquareSansPro-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "pf-100";
+    src: url("../fonts/PFSquareSansPro-Thin.eot");
+    src: url("../fonts/PFSquareSansPro-Thin.eot")format("embedded-opentype"),
+    url("../fonts/PFSquareSansPro-Thin.woff") format("woff"),
+    url("../fonts/PFSquareSansPro-Thin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "pf-500";
+    src: url("../fonts/PFSquareSansPro-Medium.eot");
+    src: url("../fonts/PFSquareSansPro-Medium.eot")format("embedded-opentype"),
+    url("../fonts/PFSquareSansPro-Medium.woff") format("woff"),
+    url("../fonts/PFSquareSansPro-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.ok-bg {
+    background: #798595;
+    border-bottom: 3px solid #798595;
+
+}
+
+.ok-bg:hover{
+    color: #fff;
+}
+.main-link {
+    font-family: "pf-200";
+
+    font-size: 24px;
+    color: #010101;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.main-item-div{
+    padding: 5px 0;
+    margin: 2px ;
+
+
+
+}
+
+.main-item:hover{
+    border-bottom: 3px solid #620030;
+}
+.main-link:hover {
+    text-decoration: none;
+    color: #010101;
+}
+.main-link-active{
+     color: #fff;
+ }
+
+
+#main-content{
+    background: #798595;
+    height: 100%;
+}
+
+.main-text{
+    padding-top: 150px;
+    text-align: left;
+
+
+}
+
+.main-text p{
+    font-size: 18px;
+    font-family: "pf-100";
+    color: #fff;
+}
+
+.main-img{
+    padding: 3% 0 0 7%;;
+
+
+
+}
+
+@media (max-width: 768px){
+    .main-text {
+        padding-top: 30px;
+    }
+
+    .main-img{
+        padding: 5% 5% 0 5%  ;
+
+
+    }
+
+    #blog-description{
+        background-color: transparent;
+        background: url(../img/am3.png) no-repeat center center;
+        min-height: 450px;
+        background-size: cover;
+
+
+
+    }
+
+}
+
+#contacts-title{
+    padding: 40px 0;
+    background: #798595;
+    text-align: center;
+}
+
+#contacts-title h1{
+    font-family: "pf-300";
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#contacts-info{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+
+.ok-sub {
+    font-family: "pf-500";
+    font-size: 28px;
+    color: #030303;
+    margin-bottom: 35px;
+
+}
+
+.ok-p {
+    font-family: "pf-200";
+    font-size: 28px;
+    color: #030303;
+    margin-bottom:35px;
+}
+
+#blog-description{
+    background-color: #798595;
+
+
+
+
+}
+
+
+#blog-description p{
+    padding-top: 45%;
+    font-size: 22px;
+    font-family: "pf-100";
+    color: #fff;
+}
+
+.interview-block{
+    padding-top: 30px;
+}
+
+.interview-block a{
+    color: #010101;
+    text-decoration: none;
+
+}
+
+.interview-block a{
+    color: #010101;
+    text-decoration: none;
+
+}
+
+.interview-block a:hover{
+    color: #620030;
+    text-decoration: none;
+
+}
+.interview-block h2{
+    font-family: "pf-300";
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.interview-block p{
+    font-family: "pf-100";
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.read_more{
+    color: #620030 !important;
+}
+
+.buttons-line {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 10%;
+}
+
+.go-out-button {
+    background: url(../img/go-out-article-button.png);
+    display: inline-block;
+    height: 32px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.go-out-button:hover {
+    background: url(../img/go-out-article-button-hover.png);
+}
+
+.facebook-repost-button{
+    background: url(../img/facebook-repost-button.jpg);
+    display: inline-block;
+    height: 33px;
+    width: 33px;
+
+}
+.facebook-repost-button:hover{
+    background: url(../img/facebook-repost-button-hover.png);
+}
+.vk-repost-button{
+    background: url(../img/vk-repost-button.jpg);
+    display: inline-block;
+    height: 33px;
+    width: 33px;
+}
+.vk-repost-button:hover{
+    background: url(../img/vk-repost-button-hover.png);
+}
+
+
+#photo-div{
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.article-title{
+    font-family: "pf-300";
+}
+.article-text{
+
+    font-family: "pf-100";
+    vertical-align: top;
+}
+.buttons-line{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.vk-repost-button:hover{
+    background: url(../img/vk-repost-button-hover.png);
+}
+input[type=submit] {
+    background: url(../img/ok-comment-button.png);
+    border: 0;
+    display: block;
+    width: 44px;
+    height: 19px;
+}
+input[type=submit]:hover {
+    background: url(../img/ok-comment-button-hover.png);
+}
+.article{
+    margin-left: 50px;
+}
+.comments{
+    margin-left: 50px;
+    font-family: "pf-100";
+    margin-bottom: 30px;
+}
+input[type=text], textarea {
+    background-color: rgb( 243, 243, 243 );
+    color: rgb( 183, 183, 183 );
+    font-family: "pf-100";
+    border-width: 2px;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+input[type=text]:focus,textarea:focus {
+    color: #000000;
+}
+textarea{
+    resize: none;
+}
+#comment-word{
+    font-weight: bold;
+}
+.comment{
+    margin-top: 20px;
+}
+.comment-author{
+    font-weight: bold;
+    font-family: "pf-100";
+}
+.comment-text{
+    font-family: "pf-100";
+}
